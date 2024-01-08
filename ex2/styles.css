@@ -1,0 +1,42 @@
+.dateText{
+    color:white;
+}
+
+.menu{
+    background-image:linear-gradient(#04427b, rgb(27, 28, 87));
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    /*justify-content: ;*/
+    text-decoration: none;
+}
+
+.buttonGroup{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap: 30px;
+
+}
+
+.registerButton{
+    border: 1px solid white;
+    padding:5px 10px;
+    border-radius: 3px;
+}
+
+.loginButton{
+    background-color:white;
+    color:#04427b;
+    padding:5px 10px;
+    border-radius: 3px;
+}
+
+.buttonGroup .registerButton{
+    background-color: red;
+}
+
+#registerButton{
+    background-color: blue;
+}
